@@ -9,7 +9,7 @@ int main()
 	int j = 0;
 	int k = 0;
 	int n = 0;
-	printf("ÇëÊäÈë±ß³¤:");
+	printf("è¯·è¾“å…¥è¾¹é•¿ï¼š");
 	scanf("%d", &n);
 	for (i = 1; i <= n; i++)
 	{
