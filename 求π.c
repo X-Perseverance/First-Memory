@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-//�� = 4*(1-1/3+1/5-1/7 ...)
+//格雷戈里公式：4*(1-1/3+1/5-1/7 ...)
 
 double Sum()
 {
@@ -22,7 +22,7 @@ double Sum()
 
 int main()
 {
-	printf("��ԼΪ��%f\n", 4 * Sum());
+	printf("约为：%f\n", 4 * Sum());
 	system("pause");
 	return 0;
 }
