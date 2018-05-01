@@ -8,7 +8,7 @@ int main()
 	int x = 0, y = 0;
 	int m = 0, n = 0;
 	int tmp = 0;
-	printf("ÇëÊäÈëÁ½¸öÊı£º");
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°ï¼š");
 	scanf("%d %d", &x, &y);
 	m = x;
 	n = y;
@@ -19,8 +19,8 @@ int main()
 		n = tmp;
 		tmp = m%n;
 	}
-	printf("×î´ó¹«Ô¼ÊıÎª%d\n", n);
-	printf("×îĞ¡¹«±¶ÊıÎª%d\n", x*y / n);
+	printf("æœ€å¤§å…¬çº¦æ•°ä¸º%d\n", n);
+	printf("æœ€å°å…¬å€æ•°ä¸º%d\n", x*y / n);
 	system("pause");
 	return 0;
 }
