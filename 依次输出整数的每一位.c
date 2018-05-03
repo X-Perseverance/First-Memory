@@ -7,7 +7,7 @@ void Print(int num)
 {
 	if (num > 9)
 	{
-		Print(num / 10); //µÝ¹é
+		Print(num / 10); //é€’å½’
 	}
 	printf("%d ", num % 10);
 }
