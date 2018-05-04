@@ -7,7 +7,7 @@ int main()
 {
 	int arr[20][20] = { 0 };
 	int i = 0, j = 0, k = 0, n = 0;
-	printf("ÇëÊäÈëĞĞÊı£º");
+	printf("è¯·è¾“å…¥è¡Œæ•°ï¼š");
 	scanf("%d", &n);
 
 	for (i = 1; i <= n; i++)
