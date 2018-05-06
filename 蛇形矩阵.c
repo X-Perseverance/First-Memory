@@ -6,7 +6,7 @@
 int main()
 {
 	int row = 0;
-	printf("ÇëÊäÈëĞĞÊı£º");
+	printf("è¯·è¾“å…¥è¡Œæ•°ï¼š");
 	scanf("%d", &row);
 	int a[20][20] = { 0 };
 	int num = 1;
