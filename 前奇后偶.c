@@ -4,8 +4,8 @@
 #include <Windows.h>
 #include <string.h>
 
-//ÌâÄ¿£º
-//ÊäÈëÒ»¸öÕûÊýÊý×é£¬ÊµÏÖÒ»¸öº¯Êý£¬À´µ÷Õû¸ÃÊý×éÖÐÊý×ÖµÄË³ÐòÊ¹µÃÊý×éÖÐËùÓÐµÄÆæÊýÎ»ÓÚÊý×éµÄÇ°°ë²¿·Ö£¬ËùÓÐÅ¼ÊýÎ»ÓÚÊý×éµÄºó°ë²¿·Ö
+//é¢˜ç›®ï¼š
+//è¾“å…¥ä¸€ä¸ªæ•´æ•°æ•°ç»„ï¼Œå®žçŽ°ä¸€ä¸ªå‡½æ•°ï¼Œæ¥è°ƒæ•´è¯¥æ•°ç»„ä¸­æ•°å­—çš„é¡ºåºä½¿å¾—æ•°ç»„ä¸­æ‰€æœ‰çš„å¥‡æ•°ä½äºŽæ•°ç»„çš„å‰é¢ï¼Œæ‰€æœ‰å¶æ•°ä½äºŽæ•°ç»„çš„åŽé¢
 
 void Sort_arr(int *arr, int size)
 {
@@ -13,15 +13,15 @@ void Sort_arr(int *arr, int size)
 	int *end = arr + size - 1;
 	while (start < end)
 	{
-		while ((*start & 1) == 1) //ÅÐ¶ÏÇ°²¿·ÖÊÇ·ñÎªÆæÊý
+		while ((*start & 1) == 1) //åˆ¤æ–­å‰éƒ¨åˆ†æ˜¯å¦ä¸ºå¥‡æ•°
 		{
 			start++;
 		}
-		while ((*end & 1) == 0) //ÅÐ¶Ïºó²¿·ÖÊÇ·ñÎªÅ¼Êý
+		while ((*end & 1) == 0) //åˆ¤æ–­åŽéƒ¨åˆ†æ˜¯å¦ä¸ºå¶æ•°
 		{
 			end--;
 		}
-		if (start < end) //½»»»
+		if (start < end) //äº¤æ¢
 		{
 			*start ^= *end ^= *start ^= *end;
 		}
