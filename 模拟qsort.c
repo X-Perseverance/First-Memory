@@ -5,8 +5,6 @@
 #include <stdlib.h>
 #include <assert.h>
 
-//Ä£Äâqsort(ÓÃÃ°Åİ·¨£©
-
 int int_cmp(const void *x, const void *y)
 {
 	int *a = (int *)x;
