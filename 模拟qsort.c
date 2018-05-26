@@ -46,12 +46,18 @@ void my_sort(void *a, int count, int size, int (*cmp)(const void *elem1, const v
 	int j = 0;
 	for (i = 0; i < count; i++)
 	{
+		int flag = 0;
 		for (j = 0; j < count - i - 1; j++)
 		{
 			if (cmp((char *)a + j*size, (char *)a + (j + 1)*size) > 0)
 			{
+				flag = 1;
 				Swap((char *)a + j*size, (char *)a + (j + 1)*size, size);
 			}
+		}
+		if (flag == 0) //优化
+		{
+			break;
 		}
 	}
 }
