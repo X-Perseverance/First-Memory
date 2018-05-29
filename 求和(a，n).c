@@ -9,8 +9,8 @@ int main()
 	int n = 0;
 	int sum = 0;
 	int tmp = 0;
-	printf("Èç£ºa+aa+aaa+aaaa+...\n");
-	printf("ÇëÊäÈëaºÍn£º");
+	printf("å¦‚ï¼ša+aa+aaa+aaaa+...\n");
+	printf("è¯·è¾“å…¥aå’Œnï¼š");
 	scanf("%d %d", &a, &n);
 	for (int i = 0; i < n; i++)
 	{
