@@ -15,7 +15,7 @@ int main()
 		}
 		if (ch == '}' && count == 0)
 		{
-			printf("²»Æ¥Åä\n");
+			printf("ä¸åŒ¹é…\n");
 			system("pause");
 			return 0;
 		}
@@ -26,7 +26,7 @@ int main()
 	}
 	if (count == 0)
 	{
-		printf("Æ¥Åä\n");
+		printf("åŒ¹é…\n");
 	}
   system("pause");
   return 0;
