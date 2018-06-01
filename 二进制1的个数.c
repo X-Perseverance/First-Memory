@@ -16,13 +16,13 @@ int main()
 	//	}
 	//}
 
-	while (num) //ÓÅ»¯
+	while (num) //ä¼˜åŒ–
 	{
 		count++;
 		num &= (num - 1);
 	}
 
-	printf("%dµÄ¶ş½øÖÆĞòÁĞÓĞ%d¸ö1\n", num, count);
+	printf("%dçš„äºŒè¿›åˆ¶å½¢å¼ä¸­æœ‰%dä¸ª1\n", num, count);
 	system("pause");
 	return 0;
 }
